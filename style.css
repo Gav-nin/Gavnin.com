@@ -1,24 +1,26 @@
 *{
-    background-color: #ff0000;
     margin: 0;
+    background: #1d1d1d;
 }
 
-header{
-    position: absolute;
-    height: 100px;
-    min-width: 100%;
-    background-size: cover;
+.header{
+    padding: 10px;
+    text-align: left;
+    height: 125px;
+    background-image: url(IMG/header.jpg);
+    color: #e6e6e6;
+    font-size: 30px;
 }
-h1{
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #b7b7b7;
 
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 53px;
-    line-height: 78px;
-    letter-spacing: 0.1em;
-    
-
-    
+.logo{
+    padding: 0%;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 0px;
+    font-family: 'Yatra One', cursive;
+    font-size: 35px;
+    color: #1d1d1d;
+    -webkit-text-stroke: #6d6d6d;
+    -webkit-text-stroke-width:.01em;
 }
+
