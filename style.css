@@ -23,4 +23,7 @@
     -webkit-text-stroke: #6d6d6d;
     -webkit-text-stroke-width:.01em;
 }
-
+ul{
+    list-style-type: none;
+    float: right;
+}
